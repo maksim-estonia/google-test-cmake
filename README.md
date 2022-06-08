@@ -1,5 +1,10 @@
 ## Google Test: CMake
 
+- [Google Test: CMake](#google-test-cmake)
+  - [Quickstart: Building with CMake](#quickstart-building-with-cmake)
+  - [Samples](#samples)
+  - [CMake Tools](#cmake-tools)
+
 ### Quickstart: Building with CMake
 
 **Set up a project**
@@ -102,3 +107,60 @@ ctest
 ### CMake Tools
 
 [source](https://code.visualstudio.com/docs/cpp/CMake-linux)
+
+The CMake Tools extension integrates VSCode and CMake to make it easy to configure, build, and debug your C++ project.
+
+**Ensure the CMake is installed**
+
+```
+cmake --version
+```
+
+**Ensure that development tools are installed**
+
+```
+gcc -v
+sudo apt-get install build-essential gdb
+```
+
+**Create a CMake project**
+
+```
+mkdir cmakeQuickStart
+cd cmakeQuickStart
+code .
+```
+
+The `code .` command opens VSCode in the current directory, which becomes your "workspace".
+
+Open the command palette and run the `CMake: Quick Start` command.
+
+Enter a project name, this will be written to `CMakeLists.txt` and a few initial source files. 
+
+Next, select `Executable` as the project type to create a basic source file (`main.cpp`) that includes a basic `main()` function.
+
+Note: if you had wanted to create a basic source and header file, you would have selected `Library` instead.
+
+**Build**
+
+Open the command palette and run the `Cmake: Build` command, or select the `Build` button from the status bar.
+
+**Debug**
+
+Put a breakpoint on a line, then open the command palette and run `Cmake: Debug`.
+
+**Run tests**
+
+Open the command palette and run the `CMake: Run Tests` command. 
+
+Manually (after builing):
+
+```
+cd build
+ctest
+```
+
+[Additional information](https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/README.md)
+
+
+
