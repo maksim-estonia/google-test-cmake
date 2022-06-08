@@ -86,3 +86,19 @@ ctest
 
 ![cmake-build-test](images/cmake-build-test.png)
 
+### Samples
+
+- [sample-1](my_samples/sample-1/sample-1.md): shows the basic steps of using googletest to test C++ functions
+- [sample-2](my_samples/sample-2/sample-2.md): shows a more complex unit test for a class with multiple member functions
+- [sample-3](my_samples/sample-3/sample-3.md): uses a test fixture 
+- [sample-4](my_samples/sample-4/sample-4.md): teaches you how to use googletest and `googletest.h` together to get the best of both libraries
+- [sample-5](my_samples/sample-5/sample-5.md): puts shared testing logic in a base test fixture, and reuses it in derived fixtures
+- [sample-6](my_samples/sample-6/sample-6.md): demonstrates type-parametrized tests
+- [sample-7](my_samples/sample-7/sample-7.md): teaches the basics of value-parametrized tests
+- [sample-8](my_samples/sample-8/sample-8.md): shows using `Combine()` in value-parametrized tests
+- [sample-9](my_samples/sample-9/sample-9.md): shows use of listener API to modify Google Test's console output and the use of its reflection API to inspect test results
+- [sample-10](my_samples/sample-10/sample-10.md): shows use of the listener API to implement a primitive memory leak checker
+
+### CMake Tools
+
+[source](https://code.visualstudio.com/docs/cpp/CMake-linux)
