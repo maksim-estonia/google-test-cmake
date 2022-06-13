@@ -6,6 +6,8 @@
 
 ## samples (gTest)
 
+[samples-gtest](samples-gtest.md)
+
 ## gMock
 
 ## samples (gMock)

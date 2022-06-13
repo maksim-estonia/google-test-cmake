@@ -103,6 +103,8 @@ The end result:
 
 The [CMake Tools](https://code.visualstudio.com/docs/cpp/CMake-linux) extension integrates VSCode and CMake to make it easy to configure, build, and debug your C++ project.
 
+Also [C++ TestMate](https://marketplace.visualstudio.com/items?itemName=matepek.vscode-catch2-test-adapter) to navigate the test results.
+
 ### Creating a project
 
 Create a CMake project:
